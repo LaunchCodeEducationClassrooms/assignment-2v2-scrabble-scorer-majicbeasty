@@ -97,9 +97,6 @@ function vowelBonusScore(word){
   return vScore + cScore; //add two scores for total
 }
 
-//let vowelBonusScore;
-
-
 //first object for simple score info/score
 let obj1 = {
   name: "Simple Score",
@@ -202,12 +199,6 @@ function runProgram() {
   
    transform(oldPointStructure);
    initialPrompt();
- 
- /*  console.log(oldScrabbleScorer(wordToScore));
-   console.log("Your simple word score is: " + simpleScore(wordToScore));
-   console.log("Your vowel bonus score is: " + vowelBonusScore(wordToScore));*/
-
-   //console.log("Let's play some Scrabble!");
    scorerPrompt();
    
    if(position === 0)
